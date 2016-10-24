@@ -5,8 +5,7 @@ var noteList = $("#note-list")
 
 nameInput.keydown(function(e) {
   if (e.which == 13) {
-    name = nameInput.val();	
-    getNotesForName(name)
+    // we have a new name! Now wha
   }	
 })
 
@@ -16,7 +15,6 @@ function getNotesForName(name) {
     console.log(note)
   })
 }
-
 
 noteInput.keydown(function(e) {
   if (e.which == 13) {    
