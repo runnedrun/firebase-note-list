@@ -5,12 +5,11 @@ var noteList = $("#note-list")
 
 nameInput.keydown(function(e) {
   if (e.which == 13) {
-    // we have a new name! Now wha
+    // we have a new name! Now what?
   }	
 })
 
-function getNotesForName(name) {
-  noteList.html("")	
+function getNotesForName(name) {  
   onNewListItem(name + "/notes", function(note) {
     console.log(note)
   })
