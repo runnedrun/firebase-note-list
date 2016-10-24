@@ -1,11 +1,9 @@
-addListItem("david" + "/notes", noteInput.val())
-
 var name;
 var nameInput = $("#name-input")
 var noteInput = $("#note-input")
 var noteList = $("#note-list")
 
-nameInput.keydown(function(e) {
+nameInput.keydown(function(e) {  
   if (e.which == 13) {
     // we have a new name! Now what?
   }	
