@@ -13,8 +13,7 @@ nameInput.keydown(function(e) {
 function getNotesForName(name) {
   noteList.html("")	
   onNewListItem(name + "/notes", function(note) {
-    var noteDiv = $("<div>" + note + "</div>");
-    noteList.append(noteDiv)
+    console.log(note)
   })
 }
 
